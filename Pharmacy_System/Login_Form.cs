@@ -27,33 +27,24 @@ namespace Pharmacy_System
 
         private void guna2Button1_login_Click(object sender, EventArgs e)
         {
-            /*query = "SELECT * FROM users";
-            ds = fn.GetData(query);
-
-            if (ds.Tables[0].Rows.Count == 0)
-            {
-                if (textBox1_name.Text == "admin" && textBox2_password.Text == "admin")
-                {
-                    Admin_Form admin_Form = new Admin_Form();
-                    admin_Form.Show();
-                    this.Hide();
-                }
-            }*/
-            //else 
-            //{
+            //query for get username and password
             query = "SELECT * FROM users WHERE username = '" + textBox1_name.Text+"' AND password = '"+textBox2_password.Text+"' ";
             ds = fn.GetData(query);
             if (ds.Tables[0].Rows.Count != 0)
             {
                 String role = ds.Tables[0].Rows[0][1].ToString();
+                //check role admin or pharmacist
                 if (role == "Admin")
                 {
+                    //load admin form
                     Admin_Form admin_Form = new Admin_Form(textBox1_name.Text);
                     admin_Form.Show();
                     this.Hide();
                 }
-                else if(role == "Pharmacist")
+                //check role admin or pharmacist
+                else if (role == "Pharmacist")
                 {
+                    //load pharmacist form
                     Pharmacist_Form pharmacist_Form = new Pharmacist_Form();
                     pharmacist_Form.Show();
                     this.Hide();
@@ -63,9 +54,6 @@ namespace Pharmacy_System
             { 
                 MessageBox.Show("Username or Password Incorrect!","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        //}
-
-            
         }
 
         private void guna2Button2_clear_Click(object sender, EventArgs e)

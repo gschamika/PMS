@@ -44,5 +44,10 @@ namespace Pharmacy_System
             Login_Form.Show();
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
