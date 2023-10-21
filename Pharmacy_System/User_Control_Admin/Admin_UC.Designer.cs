@@ -193,13 +193,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(524, 128);
+            this.label9.Location = new System.Drawing.Point(526, 128);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(529, 92);
+            this.label9.Size = new System.Drawing.Size(331, 69);
             this.label9.TabIndex = 6;
-            this.label9.Text = "*This means that Admins can control settings like the design etc.\r\n\r\n*They can ad" +
-    "d and delete other admin users, and can approve \r\n  or deny edits made my user\r\n" +
-    "";
+            this.label9.Text = "*Pharmacist can check medicine validity\r\n\r\n*Pharmacist can sell medicines.\r\n";
             // 
             // label10
             // 
@@ -207,10 +205,11 @@
             this.label10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(41, 128);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(435, 115);
+            this.label10.Size = new System.Drawing.Size(385, 115);
             this.label10.TabIndex = 0;
-            this.label10.Text = "* Admin is the role with the highest level of access.\r\n\r\n* Admins can add content" +
-    " and access all items in the \r\n   Admin Dashboard.\r\n\r\n";
+            this.label10.Text = "* Pharmacist can add new medicines.\r\n\r\n* Pharmacist can update and delete medicin" +
+    "es.\r\n\r\n\r\n";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 

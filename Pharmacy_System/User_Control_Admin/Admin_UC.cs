@@ -78,5 +78,10 @@ namespace Pharmacy_System.Administrator_UC
         {
 
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
