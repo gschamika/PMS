@@ -41,10 +41,20 @@ This project was developed by a group of final-year students from the **Departme
 ---
 
 ## 🖼️ Project Screenshots
+#### User Login
+![Login](screenshots/login.png)
 
-| Login Page | Admin Dashboard | Pharmacist Dashboard |
-|------------|------------------|-----------------------|
-| ![Login](screenshots/login.png) | ![Admin](screenshots/admin-dashboard.png) | ![Pharmacist](screenshots/pharmacist-dashboard.png) |
+#### Admin Dashboards
+![Admin](screenshots/admin_addUser.png)
+![Admin](screenshots/admin_updateUser.png)
+![Admin](screenshots/admin_viewUser.png)
+
+#### Pharmacist Dashboards
+![Pharmacist](screenshots/ph_dashboard.png)
+![Pharmacist](screenshots/ph_addMed.png)
+![Pharmacist](screenshots/ph_modMed.png)
+![Pharmacist](screenshots/ph_vali.png)
+![Pharmacist](screenshots/ph_sell.png)
 
 ---
 
