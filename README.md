@@ -38,8 +38,6 @@ This project was developed by a group of final-year students from the **Departme
 - M. Pennikin  
 - W.G.T.H.M.D. Rangana Bandara  
 
-> GitHub was used for version control and effective team collaboration throughout the project.
-
 ---
 
 ## 🖼️ Project Screenshots
@@ -47,8 +45,6 @@ This project was developed by a group of final-year students from the **Departme
 | Login Page | Admin Dashboard | Pharmacist Dashboard |
 |------------|------------------|-----------------------|
 | ![Login](screenshots/login.png) | ![Admin](screenshots/admin-dashboard.png) | ![Pharmacist](screenshots/pharmacist-dashboard.png) |
-
-> 📸 Screenshots include: Login Form, Add/View/Update Users, Add/View/Update Medicines, Validity Checks, and Billing Interface.
 
 ---
 
