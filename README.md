@@ -60,7 +60,7 @@ This project was developed by a group of final-year students from the **Departme
 
 ## 🖥️ System Setup
 
-A precompiled setup executable (`HealthGuardSetup.exe`) is available in the repository under the `releases` section.
+A precompiled setup executable (`HealthGuard.msi`) is available in the repository under the `Setup` folder.
 
 ### ✅ Requirements
 - Windows OS
@@ -68,7 +68,7 @@ A precompiled setup executable (`HealthGuardSetup.exe`) is available in the repo
 - Microsoft SQL Server
 
 ### 🚀 Installation Steps
-1. Download the `HealthGuardSetup.exe` file.
+1. Download the `HealthGuard.msi` file.
 2. Run the installer and follow the on-screen instructions.
 3. Ensure the SQL Server is properly configured with the provided DB scripts.
 4. Launch the application and log in as Admin or Pharmacist.
